@@ -1,0 +1,177 @@
+body {
+
+  margin: 0px;
+  padding: 0px;
+  background: #F3f5fc;
+}
+
+* {
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+#logo {
+      width: 120px;
+      height: 48px;
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+#contenedor {
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+  background:#f3f5fc;
+  display: flex;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+
+
+#input-text {
+
+  height: 80%;
+  width: 680px;
+  margin-left: 240px;
+  margin-top: 168px;
+  color: #0a3871;
+
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border: none;
+  outline: none;
+
+  background: #F3F5FC;
+}
+
+
+
+#right{
+   
+      position: absolute;
+      width: 400px;
+      height: 944px;
+      margin-top: 40px;
+      margin-left: 1000px;
+      border-radius: 32px;
+      background-color:#FFFFFF;
+
+}
+
+#img {
+     
+  
+      position: absolute;
+      width: 336px;
+      height: 304px;
+      margin-top: 283px;
+      
+ 
+ 
+  
+}
+
+#text {
+    
+      
+      width: 336px;
+      height: 58px;
+      margin-top: 620px;
+      margin-right: 72px;
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 120%;
+      /* or 29px */
+      
+      text-align: center;
+      
+      /* Gray/gray-500 */
+      
+      color: #343A40;
+}
+
+
+#text2{
+
+      
+      margin-top: 16px;
+     
+      width: 336px;
+      height: 48px;
+      border: none;
+      outline:none ;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400px;
+      font-size: 16px;
+      line-height: 150%;
+      color:#0A3871;
+      text-align: center;
+}
+
+
+#botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#criptografar {
+  width: 328px;
+  height: 67px;
+  margin-left: 240px;
+  background: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: white;
+  margin-top: 16px;
+}
+
+#descriptografar {
+  margin-left: 30px;
+  width: 328px;
+  height: 67px;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  margin-top: 16px;
+}
+
+#informacao {
+margin-left: 264px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#copiar {
+      Color:   #0A3871;
+      border: 1px solid #0A3871;
+      height: 67px;
+      width: 336px;
+      margin-left: 32px;
+      margin-top: 90%;
+      border-radius: 24px;
+      padding: 14px;
+      
+     
+     
+     
+    
+      
+
+     
+}

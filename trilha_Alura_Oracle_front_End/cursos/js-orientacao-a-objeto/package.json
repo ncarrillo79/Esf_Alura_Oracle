@@ -1,0 +1,12 @@
+{
+  "name": "js-orientacao-a-objeto",
+  "version": "1.0.0",
+  "description": "\"Projeto bytebank para clientes\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Norma Carrillo\"",
+  "license": "ISC",
+  "type":"module"
+}

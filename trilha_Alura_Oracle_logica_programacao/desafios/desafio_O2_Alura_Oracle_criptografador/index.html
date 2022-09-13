@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    
+    <title>Decodificador</title>
+  </head>
+
+  <header>
+    <img src="images/Frame 6.png" class="logo" id="logo" alt="logo da Alura" />
+
+  </header>
+  <body>
+    <container class="contenedor" id="contenedor" >
+      <section1 class="left" id="left" >
+        <textarea
+          class="input-text"
+          id="input-text"
+          cols="40"
+          rows="6"
+          placeholder="Digite seu texto"
+        ></textarea>
+        <div>
+          <h6 class="informacao" id="informacao" >Apenas letras maiúsculas e minúsculas</h6>
+        </div>
+        <div class="botoes" id="botoes" >
+          <button class="criptografar" id="criptografar" onclick="criptografar()">Criptografar</button>
+          <button class="descriptografar"  id="descriptografar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+      </section1>
+
+      <section2 class="right" id="right" >
+        <img src="images/boy.png" class="img" id="img" alt="">
+        <h1 class ="text" id="text">Nehuma mensagem foi encontrada</h1>
+        <textarea class="text2" id="text2" cols="70" rows="8">Digite o texto que você deseja criptografar ou descriptografar.</textarea>
+        <button class="copiar"  id="copiar" onclick="copiar()">Copiar!</button>
+      </section2>
+    </container>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
